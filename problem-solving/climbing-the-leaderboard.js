@@ -21,6 +21,8 @@ function binarySearch(sortedArr, item){
 
 
 function climbingLeaderboard(ranked, player) {
+    // Idea: Using Set to ranked the ranked array follow index
+    // Then binarySearch the index to add a player in the created Set
     // Sort array from high to low
     // Ex: 100 20 20 30 10
     // Using Set structure to sort ranked of array follow index
